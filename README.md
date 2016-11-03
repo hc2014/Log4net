@@ -1,6 +1,6 @@
 # Log4net
 
-#一、按照日期为文件名记录日志的配置方式
+#一、按照日期为文件名记录日志的配置方式，
 ```
 <appender name="RollingFileAppender" type="log4net.Appender.RollingFileAppender">
 			<!--日志文件名开头-->
@@ -21,3 +21,6 @@
 ```
 唯一值得留意的地方就是file节点，他的值是空，这样才可以以日期为文件名来存日志
 ![](/img/1.png)
+
+如果file节点是绝对路径,那么文件就会存放在指定的路径上面,
+![](/img/2.png)
